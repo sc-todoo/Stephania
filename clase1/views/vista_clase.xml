@@ -13,6 +13,11 @@
       </field>
     </record>
 
+    <record model="ir.actions.act_window" id="vista_clase">
+      <field name="name">Ventana clase</field>
+      <field name="res_model">Clase.clase1</field>
+      <field name="view_mode">tree,form</field>
+    </record>
       
       
       
@@ -23,18 +28,8 @@
                 name="jugadores"/>
       
     <!-- explicit list view definition -->      
-   
-    <record model="ir.actions.act_window" id="vista_clase">
-      <field name="name">Ventana clase</field>
-      <field name="res_model">Clase.clase1</field>
-      <field name="view_mode">tree,form</field>
-    </record>
-      
-      <menuitem name="Clase" id="clase_main"/>
-      <menuitem id="usuarios_clase"
-                parent="clase_main"
-                action="vista_clase"
-                name="jugadores"/>
+
+
  <!--   
     <record model="ir.actions.act_window.view" id="action_primeraclase_vista_tree">
            <field name="sequence" eval="1"/>

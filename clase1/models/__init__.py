@@ -1,3 +1,2 @@
 # -*- coding: utf-8 -*-
-
-from . import Clase
+from . import clase
