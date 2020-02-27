@@ -9,7 +9,7 @@
         Para aprender cosas nuevas
     """,
 
-    'author': "Stepha",
+    'author': "Stephania",
     'website': "http://www.todoo.co",
 
     # Categories can be used to filter modules in modules listing
