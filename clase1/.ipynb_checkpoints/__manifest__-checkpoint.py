@@ -9,7 +9,7 @@
         Para aprender cosas nuevas
     """,
 
-    'author': "Todoo SAS",
+    'author': "Stepha",
     'website': "http://www.todoo.co",
 
     # Categories can be used to filter modules in modules listing
