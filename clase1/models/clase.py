@@ -3,7 +3,7 @@
 from odoo import models, fields
 
 class clase1(models.Model):
-    _name = 'Clase.clase1'
+    _name = 'clase1.alumnos'
     _description = 'Esta clase ayuda al aprendizaje'
 
     name= fields.Char()
